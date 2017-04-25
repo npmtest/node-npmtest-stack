@@ -1,6 +1,6 @@
 # npmtest-stack
 
-#### test coverage for  [stack (v0.1.0)](https://github.com/creationix/stack#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stack.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stack) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stack.svg)](https://travis-ci.org/npmtest/node-npmtest-stack)
+#### basic test coverage for  [stack (v0.1.0)](https://github.com/creationix/stack#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stack.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stack) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stack.svg)](https://travis-ci.org/npmtest/node-npmtest-stack)
 
 #### Stack is a minimal http module system for node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stack/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stack/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stack/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stack/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stack/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stack/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stack/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stack/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stack/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stack/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stack/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stack/build/coverage.html/index.html)
 
@@ -71,7 +71,8 @@
         "stack",
         "http"
     ],
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
